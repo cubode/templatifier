@@ -1,0 +1,18 @@
+{
+  "name": "templatifier",
+  "version": "1.0.1",
+  "description": "A CLI tool for transforming HTML templates with custom tags.",
+  "main": "index.js",
+  "bin": {
+    "templatifier": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.0"
+  }
+}

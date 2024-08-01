@@ -1,0 +1,58 @@
+<!-- <cb-templatifier type="loadstatic" /> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Cubode</title>
+    <!-- <cb-templatifier type="static-css" route="css/login.css" /> -->
+    <!-- <cb-templatifier type="static-script" route="js/login.min.js" /> -->
+</head>
+
+<body class="bg-white font-poppins flex items-center justify-center min-h-screen no-select">
+    <div class="px-44 py-14 m-18 border border-gray-50 rounded-sm shadow-sm">
+        <div class="bg-white py-8 rounded-lg min-w-[325px]">
+            <div class="flex justify-center mb-10">
+                <!-- SVG content -->
+            </div>
+
+            <h2 class="text-lg font-normal leading-7 text-center my-8">
+                Sign in to your account
+            </h2>
+
+            <form id="loginForm" data-csrf="true">
+                <!-- <cb-templatifier type="csrf_token" /> -->
+                <div class="mb-4">
+                    <label for="email" class="block text-xs font-normal leading-6 text-[#2D2D2A]">Email address</label>
+                    <input type="email" id="email" class="w-full p-2 px-4 border text-xs font-normal leading-5 text-[#2D2D2AB2] rounded mt-1" placeholder="Enter email address" required>
+                    <div class="hidden" id="passwordField">
+                        <label for="password" class="block text-xs font-normal leading-6 text-[#2D2D2A] mt-3">Password</label>
+                        <input type="password" id="password" class="w-full p-2 px-4 border text-xs font-normal leading-5 text-[#2D2D2AB2] rounded mt-1" placeholder="Enter the password" required>
+                    </div>
+
+                    <button type="button" id="continueButton" class="bg-gray-50 hover:bg-white hover:shadow-md shadow-sm w-full border mt-10 text-base font-medium leading-6 text-center py-2 rounded flex items-center justify-center">
+                        <p class="text-sm">Continue</p>
+                    </button>
+                    <button type="submit" id="submitButton" class="bg-gray-50 hover:bg-white hover:shadow-md shadow-sm w-full border mt-10 text-base font-medium leading-6 text-center py-2 rounded flex items-center justify-center hidden">
+                        <p class="text-sm">Submit</p>
+                    </button>
+                </div>
+            </form>
+
+            <div class="text-center mt-8">
+                <p class="text-sm font-normal leading-5 text-[#2D2D2A]">Don't have an account? <a href="" class="font-extrabold">Sign Up</a></p>
+            </div>
+            <div class="flex items-center my-10">
+                <hr class="flex-grow border-t border-gray-300">
+            </div>
+            <button class="w-full bg-gray-50 hover:bg-white hover:shadow-md shadow-sm border text-base font-medium leading-6 text-center py-2 rounded flex items-center justify-center">
+                <div class="mr-2">
+                </div>
+                <p class="text-sm">Continue with Google</p>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
