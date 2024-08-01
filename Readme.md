@@ -79,3 +79,11 @@ Would produce the following output:
 ## License
 
 This project is licensed under the MIT License.
+
+## Support
+For any issues or questions, please open an issue on the GitHub repository.
+
+## About
+We are www.cubode.com an startup focussed on No Code, AI and OpenSouce.
+
+Templatifier has been developed with 💙 for the community, check Templatifier-webpack-plugin for a webpack plugin at ([https://www.npmjs.com/package/templatifier](https://github.com/cubode/templatifier-webpack-plugin))
