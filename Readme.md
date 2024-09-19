@@ -1,4 +1,14 @@
-# templatifier
+# 📊📈📉  Templatifier
+## Package to transform normal HTML files into Django HTML Templates.
+---
+
+![License](https://img.shields.io/badge/license-MIT-green)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/cubode/)
+[![Watch on GitHub](https://img.shields.io/github/watchers/cubode/templatifier.svg?style=social)](https://github.com/cubode/templatifier/watchers)
+[![Star on GitHub](https://img.shields.io/github/stars/cubode/templatifier.svg?style=social)](https://github.com/cubode/templatifier/stargazers)
+[![Tweet](https://img.shields.io/twitter/url/https/github.com/cubode/templatifier.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20templatifier%20package%21%20https%3A%2F%2Fgithub.com%2Fcubode%2Ftemplatifier)
+
+This packages allows to work with a normal frontend environment and django templates. It is added as an step to the html bundling in webpack and allows to transform html into prepared html templates for django.
 
 A command-line tool for transforming HTML templates with custom `<cb-templatifier>` tags into Django-friendly templates.
 
